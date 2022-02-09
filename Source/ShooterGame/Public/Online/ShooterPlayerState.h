@@ -93,7 +93,7 @@ protected:
 
 	/** team number */
 	UPROPERTY(Transient, ReplicatedUsing=OnRep_TeamColor)
-	int32 TeamNumber;
+	//int32 TeamNumber;
 
 	/** number of kills */
 	UPROPERTY(Transient, Replicated)

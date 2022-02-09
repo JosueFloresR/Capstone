@@ -405,6 +405,7 @@ public:
 
 	// Current health of the Pawn
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category = Health)
+		
 	float Health;
 
 	/** Take damage, handle death */
